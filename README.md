@@ -1,4 +1,4 @@
-Project Link: [React-Schedule-List](https://natainbogdan.netlify.app/)
+Project Link: [todo-application](https://natainbogdan.netlify.app/)
 
 
 <p align="center">

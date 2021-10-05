@@ -33,7 +33,7 @@ yarn run test
 
 👤 **Natain Bogdan**
 
-* Website: https://natain.github.io/website-portfolio/
+
 * Github: [@Natain](https://github.com/Natain)
 
 ## Show your support

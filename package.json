@@ -40,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Natain/react-schedule-list.git",
+  "author": "Natain Bogdan <natainbogdan@gmail.com>",
+  "license": "MIT"
 }

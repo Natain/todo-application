@@ -8,7 +8,6 @@
 
 > todo list
 
-### 🏠 [Homepage](https://natainbogdan.netlify.app/)
 
 ### ✨ [Demo](https://natainbogdan.netlify.app/)
 

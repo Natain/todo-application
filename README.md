@@ -1,71 +1,63 @@
 Project Link: [React-Schedule-List](https://natainbogdan.netlify.app/)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://yarnpkg.com/">
+    <img alt="Yarn" src="https://github.com/yarnpkg/assets/blob/master/yarn-kitten-full.png?raw=true" width="546">
+  </a>
+</p>
 
-## Available Scripts
+<p align="center">
+  Fast, reliable, and secure dependency management.
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://circleci.com/gh/yarnpkg/yarn"><img alt="Circle Status" src="https://circleci.com/gh/yarnpkg/yarn.svg?style=shield&circle-token=5f0a78473b0f440afb218bf2b82323cc6b3cb43f"></a>
+  <a href="https://ci.appveyor.com/project/kittens/yarn/branch/master"><img alt="Appveyor Status" src="https://ci.appveyor.com/api/projects/status/0xdv8chwe2kmk463?svg=true"></a>
+  <a href="https://dev.azure.com/yarnpkg/yarn/_build"><img alt="Azure Pipelines status" src="https://dev.azure.com/yarnpkg/yarn/_apis/build/status/Yarn%20Acceptance%20Tests"></a>
+  <a href="https://discord.gg/yarnpkg"><img alt="Discord Chat" src="https://img.shields.io/discord/226791405589233664.svg"></a>
+  <a href="http://commitizen.github.io/cz-cli/"><img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"></a>
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Fast:** Yarn caches every package it has downloaded, so it never needs to download the same package again. It also does almost everything concurrently to maximize resource utilization. This means even faster installs.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Reliable:** Using a detailed but concise lockfile format and a deterministic algorithm for install operations, Yarn is able to guarantee that any installation that works on one system will work exactly the same on another system.
 
-### `npm test`
+**Secure:** Yarn uses checksums to verify the integrity of every installed package before its code is executed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+* **Offline Mode.** If you've installed a package before, then you can install it again without an internet connection.
+* **Deterministic.** The same dependencies will be installed in the same exact way on any machine, regardless of installation order.
+* **Network Performance.** Yarn efficiently queues requests and avoids request waterfalls in order to maximize network utilization.
+* **Network Resilience.** A single request that fails will not cause the entire installation to fail. Requests are automatically retried upon failure.
+* **Flat Mode.** Yarn resolves mismatched versions of dependencies to a single version to avoid creating duplicates.
+* **More emojis.** 🐈
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installing Yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Read the [Installation Guide](https://yarnpkg.com/en/docs/install) on our website for detailed instructions on how to install Yarn.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Using Yarn
 
-### `npm run eject`
+Read the [Usage Guide](https://yarnpkg.com/en/docs/usage) on our website for detailed instructions on how to use Yarn.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing to Yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are always welcome, no matter how large or small. Substantial feature requests should be proposed as an [RFC](https://github.com/yarnpkg/rfcs). Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+See [Contributing](https://yarnpkg.com/org/contributing/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Prior art
 
-## Learn More
+Yarn wouldn't exist if it wasn't for excellent prior art. Yarn has been inspired by the following projects:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ - [Bundler](https://github.com/bundler/bundler)
+ - [Cargo](https://github.com/rust-lang/cargo)
+ - [npm](https://github.com/npm/cli)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks to [Sam Holmes](https://github.com/samholmes) for donating the npm package name!

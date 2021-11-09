@@ -1,5 +1,5 @@
 {
-  "name": "react-schedule-list",
+  "name": "todo-application",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,8 +10,10 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "ansi-regex": "^6.0.1",
     "framer-motion": "^4.1.16",
     "nanoid": "^3.1.23",
+    "nth-check": "^2.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -37,13 +39,13 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
+      "last 1 Chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
   "main": "index.js",
-  "repository": "https://github.com/Natain/react-schedule-list.git",
+  "repository": "https://github.com/Natain/todo-application.git",
   "author": "Natain Bogdan <natainbogdan@gmail.com>",
   "license": "MIT"
 }
